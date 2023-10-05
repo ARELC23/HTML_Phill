@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+}
+
+.typewriter {
+    display: inline-block;
+  }
+
+  .typed {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 4s steps(30, end) forwards, blinking 1s infinite;
+}
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blinking {
+    0% {border-right-color: transparent}
+    50% {border-right-color: white}
+    100% {border-right-color: transparent}
+  }
+
+form {
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 90%;
+    margin-left: 5px;
+}
+
+input[type=text] {
+    background-color: black;
+    padding: 45px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: rgb(182, 206, 182);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4c5c4d;
+}
+
+.bottom-line {
+    margin-top: 100px;
+}
+
+/* FOOTER */
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+  }
