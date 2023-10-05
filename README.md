@@ -1,3 +1,3 @@
 # HTML_Phill
 #
-# To Display HTML and CSS
+# HTML and CSS
